@@ -1,3 +1,6 @@
+<%# if enhanced_cart is not empty display order %>
+<% if enhanced_cart != [] %>
+
 <section class="cart-show">
 
   <header class="page-header">
@@ -50,3 +53,11 @@
   </div>
 
 </section>
+
+<% end %>
+
+<% if enhanced_cart == [] %>
+<div>
+<%= link_to 'Your cart is empty click here to go home', :root %>
+</div>
+<% end %>
