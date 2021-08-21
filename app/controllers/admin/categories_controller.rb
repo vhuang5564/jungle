@@ -9,4 +9,15 @@ class Admin::CategoriesController < ApplicationController
     @category = Category.new
   end
 
+  def category_params 
+    params.require(:category).permit(
+      :name
+    )
+  end
+
+  def create
+    raise category_params.inspect
+    # @category = Category.new(category_params)
+  end
+
 end
