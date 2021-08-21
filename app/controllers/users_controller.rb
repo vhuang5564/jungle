@@ -3,6 +3,11 @@ class UsersController < ApplicationController
   end
   
   def create
+    if params.require(:user).permit(:password) != params.require(:user).permit(:password_confirmation)
+      raise "error"
+    end
+
+
     user = User.new(user_params)
     if user.save
       session[:user_id] = user.id
