@@ -57,7 +57,7 @@
 <% end %>
 
 <% if enhanced_cart == [] %>
-<div>
-<%= link_to 'Your cart is empty click here to go home', :root %>
+<div class="alert alert-info">
+<%= link_to 'Your cart is empty', :root %>
 </div>
 <% end %>
