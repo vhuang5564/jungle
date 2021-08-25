@@ -9,7 +9,7 @@ class UsersController < ApplicationController
       redirect_to '/'
     else
       redirect_to '/signup'
-      raise "Name length has to be between 6-18 characters"
+      raise "Error: Name length has to be between 6-18 characters, or email already in use"
     end
   end
 
