@@ -4,6 +4,16 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Final Product
 
+!["Screenshot of home page"](https://github.com/vhuang5564/jungle/blob/master/public/images/home.png)
+
+!["Screenshot of cart page"](https://github.com/vhuang5564/jungle/blob/master/public/images/cart.png)
+
+!["Screenshot of products page"](https://github.com/vhuang5564/jungle/blob/master/public/images/admin_products.png)
+
+!["Screenshot of categories page"](https://github.com/vhuang5564/jungle/blob/master/public/images/admin_categories.png)
+
+!["Screenshot of about page"](https://github.com/vhuang5564/jungle/blob/master/public/images/about.png)
+
 
 ## Additional Steps for Apple M1 Machines
 
